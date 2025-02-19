@@ -1,0 +1,24 @@
+{
+  "domain": "dev-twgam2m5o2pvtj0i.us.auth0.com",
+  "clientId": "FhtLAmGwqlP6CouQm2ZnZs4Gd40jatwd",
+  "azure": {
+    "domain": "azure-ad.example.com",
+    "clientId": "azure-client-id",
+    "redirectUri": "http://localhost:3000",
+    "tenantId": "your-azure-tenant-id",
+    "scopes": ["openid", "profile", "email"]
+  },
+ "okta": {
+  "domain": "https://dev-39806242.okta.com",
+  "clientId": "0oanaszrglTMSV5ej5d7"
+},
+  "auth0": {
+    "domain": "dev-dzf31x2lyk46rsnb.us.auth0.com",
+    "clientId": "1obZife0KeQItynNyBqdX1CckA8ynbNs"
+  },
+  "shibboleth": {
+    "entityId": "http://localhost:3000",
+    "assertionConsumerService": "http://localhost:3000/auth/callback",
+    "idpUrl": "http://localhost:8080/simplesaml/saml2/idp/SSOService.php"
+  }
+}
